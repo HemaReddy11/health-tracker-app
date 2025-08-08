@@ -27,20 +27,20 @@ Includes secure authentication, responsive design, and easy exercise management.
    ```bash
    git clone https://github.com/<your-username>/health-tracker-app.git
 2. **Install dependencies**
-   # Backend
+- Backend
    cd backend
    npm install
 
-   # Frontend
+- Frontend
    cd ../frontend
    npm install
 3. Set up environment variables in backend/.env:
    MONGO_URI=your_connection_string
    JWT_SECRET=your_secret
 4. Run the application
-   # Backend
+- Backend
    npm start
 
-   # Frontend (in another terminal)
+- Frontend (in another terminal)
    npm start
 
