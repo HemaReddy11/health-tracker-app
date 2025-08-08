@@ -1,88 +1,56 @@
-# FitTrack
-A MERN-stack fitness tracker app.
+Health & Fitness Tracker App 🏋️‍♂️
+A full-stack MERN application to help users log workouts, track progress, and stay consistent with their fitness goals.
+Features secure authentication, easy exercise logging, and a clean, responsive interface.
 
-## Table of Contents
+✨ Features
+User registration & login with JWT authentication
 
-- [Description](#description)
-- [Technology](#Technology)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contribution](#contribution)
-- [Questions](#questions)
+Add cardio and resistance exercises
 
-## Description:
+View and manage workout history
 
-A user-friendly MERN-stack application that enables individuals to easily track and manage their daily fitness routines. Features include logging and tracking of both cardio and resistance exercises, viewing of workout history, and ability to delete exercises.
+Mobile-friendly design
 
-## Technology:
+🛠 Tech Stack
+Frontend: React.js, CSS
 
-Project is created with:
+Backend: Node.js, Express.js
 
-- Mongoose
-- Express.js
-- React.js
-- Node.js
-- JWT Authentication
+Database: MongoDB Atlas
 
-## Installation
+Auth: JSON Web Tokens (JWT)
 
-To run this project, install it locally using npm:
+Deployment: Render / Vercel
 
-```
+🚀 Quick Start
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/<your-username>/health-tracker-app.git
+Install dependencies in both frontend and backend:
+
+bash
+Copy
+Edit
 npm install
-```
+Add your .env in backend:
 
-## Usage
+ini
+Copy
+Edit
+MONGO_URI=your_connection_string
+JWT_SECRET=your_secret
+Run backend & frontend servers:
 
-After installing npm packages, the application will be invoked by using the following command:
+bash
+Copy
+Edit
+npm start
+📌 Future Plans
+Progress tracking with charts
 
-```
-npm run develop
-```
+Weekly/monthly summaries
 
-[Click me to see the app!](https://fittrack-mlvj.onrender.com)
-
-#### Example Screenshot
-
-- Home Page <br>
-  ![Screenshot](./client/src/assets/screenshots/1.png)
-
-- Login Page <br>
-  ![Screenshot](./client/src/assets/screenshots/2.png)
-
-- Exercise Page <br>
-  ![Screenshot](./client/src/assets/screenshots/3.png)
-
-- Add Cardio <br>
-  ![Screenshot](./client/src/assets/screenshots/4.png)
-
-- Add Resistance <br>
-  ![Screenshot](./client/src/assets/screenshots/5.png)
-
-- History Page <br>
-  ![Screenshot](./client/src/assets/screenshots/6.png)
-
-- Single Cardio History <br>
-  ![Screenshot](./client/src/assets/screenshots/7.png)
-
-- Single Resistance History <br>
-  ![Screenshot](./client/src/assets/screenshots/8.png)
-
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
-This project is licensed under MIT, for more information please visit [this website](https://opensource.org/licenses/MIT)
-
-## Contribution
-
-- Icons are from www.flaticon.com
-- Backgroun photos are from www.pexels.com
-- Made with ❤️ by Wenwen Tian
-
-## Questions?
-
-Please feel free to contact me if you need any further information:
-
-- [Email](wwtian9@gmail.com)
-- [Github Profile](https://github.com/joce1ynn)
+Workout reminders
