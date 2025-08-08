@@ -1,56 +1,46 @@
-Health & Fitness Tracker App 🏋️‍♂️
-A full-stack MERN application to help users log workouts, track progress, and stay consistent with their fitness goals.
-Features secure authentication, easy exercise logging, and a clean, responsive interface.
+# Health & Fitness Tracker App 🏋️‍♂️
 
-✨ Features
-User registration & login with JWT authentication
+A full-stack MERN application to log workouts, monitor progress, and stay consistent with fitness goals.  
+Includes secure authentication, responsive design, and easy exercise management.
 
-Add cardio and resistance exercises
+---
 
-View and manage workout history
+## ✨ Features
+- User signup & login with JWT authentication  
+- Add cardio and resistance exercises  
+- View, edit, and delete workout history  
+- Mobile-friendly design  
 
-Mobile-friendly design
+---
 
-🛠 Tech Stack
-Frontend: React.js, CSS
+## 🛠 Tech Stack
+- **Frontend:** React.js, CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB Atlas  
+- **Authentication:** JSON Web Tokens (JWT)  
+- **Deployment:** Render / Vercel  
 
-Backend: Node.js, Express.js
+---
 
-Database: MongoDB Atlas
+## 🚀 Quick Start
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/health-tracker-app.git
+2. **Install dependencies**
+   # Backend
+   cd backend
+   npm install
 
-Auth: JSON Web Tokens (JWT)
+   # Frontend
+   cd ../frontend
+   npm install
+3. Set up environment variables in backend/.env:
+   MONGO_URI=your_connection_string
+   JWT_SECRET=your_secret
+4. Run the application
+   # Backend
+   npm start
 
-Deployment: Render / Vercel
+   # Frontend (in another terminal)
+   npm start
 
-🚀 Quick Start
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/health-tracker-app.git
-Install dependencies in both frontend and backend:
-
-bash
-Copy
-Edit
-npm install
-Add your .env in backend:
-
-ini
-Copy
-Edit
-MONGO_URI=your_connection_string
-JWT_SECRET=your_secret
-Run backend & frontend servers:
-
-bash
-Copy
-Edit
-npm start
-📌 Future Plans
-Progress tracking with charts
-
-Weekly/monthly summaries
-
-Workout reminders
