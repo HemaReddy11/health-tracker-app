@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/joce1ynn/fitness-tracker/issues"
   },
-  "homepage": "https://github.com/fitness-tracker#readme",
+ "homepage": "https://hemareddy11.github.io/health-tracker-app",
   "devDependencies": {
     "concurrently": "^7.6.0"
   }
